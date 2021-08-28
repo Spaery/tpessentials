@@ -1,0 +1,26 @@
+main: com.github.spaery.tpessentials.TPEssentials
+name: TPEssentials
+author: Spaery
+version: 1.0.0-alpha
+api-version: 1.17
+
+commands:
+  tpa:
+    description: sends a tp request to specified player
+    permission: tpessentials.tpa
+    permission-message: You do not have permission to use this command.
+    usage: /tpa (TargetPlayer)
+  tpaccept:
+    description: accepts a sent tpa request
+    permission: tpessentials.tpaccept
+    permission-message: You do not have permission to use this command.
+    usage: /tpaccept
+    aliases:
+      - tpyes
+  tpdeny:
+    description: declines an incoming tpa request
+    permission: tpessentials.tpdeny
+    permission-message: You do not have permission to use this command.
+    usage: /tpdeny
+    aliases:
+      - tpno

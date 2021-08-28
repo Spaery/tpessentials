@@ -1,0 +1,4 @@
+# How long a tp request is valid
+RequestDuration: 5
+# Time between when you accept and when you're teleported
+TimeToWait: 3
