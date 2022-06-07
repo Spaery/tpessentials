@@ -1,8 +1,8 @@
 main: com.github.spaery.tpessentials.TPEssentials
 name: TPEssentials
 author: Spaery
-version: 1.0.0-alpha
-api-version: 1.17
+version: 1.0.0
+api-version: 1.19
 
 commands:
   tpa:
